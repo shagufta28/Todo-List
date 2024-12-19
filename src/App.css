@@ -1,0 +1,38 @@
+/* General styling for the navigation bar */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Styling for link hover effect */
+.nav-link:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Optional: Add active state for the link (e.g., when the user is on that page) */
+.nav-link.active {
+  background-color: #0056b3;
+  color: white;
+  transform: scale(1.1);
+}

@@ -1,0 +1,166 @@
+.todo-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .todo-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .todo-add-button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-add-button:hover {
+    background-color: #218838;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .todo-text {
+    flex: 1;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .todo-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .todo-edit-button,
+  .todo-delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-edit-button {
+    background-color: #007bff;
+  }
+  
+  .todo-edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-delete-button {
+    background-color: #dc3545;
+  }
+  
+  .todo-delete-button:hover {
+    background-color: #c82333;
+  }
+
+  
+  .employee-list {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list-title {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .employee-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .employee-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .employee-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .employee-info {
+    font-size: 16px;
+  }
+  
+  .employee-name {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .employee-email {
+    color: #555;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 18px;
+    color: #ff6347;
+    padding: 20px;
+  }
+  
